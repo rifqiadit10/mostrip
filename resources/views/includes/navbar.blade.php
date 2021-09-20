@@ -2,7 +2,7 @@
 <div class="container">
     <nav class="row navbar navbar-expand-lg navbar-light bg-white">
       <a href="{{ route('home') }}" class="navbar-brand">
-        <img src="{{ url('frontend/images/logo_nomads.png') }}" alt="Logo NOMADS" />
+        <img src="{{ url('frontend/images/logo_mostrip.png') }}" alt="Logo MOSTRIP" />
       </a>
       <button
         class="navbar-toggler navbar-toggler-right"
@@ -21,7 +21,7 @@
           <li class="nav-item mx-md-2">
             <a href="#popular" class="nav-link">Paket Travel</a>
           </li>
-          <li class="nav-item dropdown">
+          {{-- <li class="nav-item dropdown">
             <a
               href="#"
               class="nav-link dropdown-toggle"
@@ -35,12 +35,12 @@
               <a href="#" class="dropdown-item">Link</a>
               <a href="#" class="dropdown-item">Link</a>
             </div>
-          </li>
+          </li> --}}
           <li class="nav-item mx-md-2">
             <a href="#testimonialHeading" class="nav-link">Testimonial</a>
           </li>
         </ul>
-        
+
         @guest
             <!-- Mobile Button  -->
             <form class="form-inline d-sm-block d-md-none">

@@ -116,7 +116,7 @@
               </form>
               <h3 class="mt-2 mb-0">Note</h3>
               <p class="disclaimer mb-0">
-                You are only able to invite member that has registered in Nomads.
+                You are only able to invite member that has registered in Mostrip.
               </p>
             </div>
           </div>
@@ -168,7 +168,7 @@
               <div class="bank-item pb-3">
                 <img src="{{ url('frontend/images/ic_bank.png') }}" alt="" class="bank-image">
                 <div class="description">
-                  <h3>PT Nomads ID</h3>
+                  <h3>PT Mostrip ID</h3>
                   <p>
                     0881 8829 8800
                     <br>
@@ -180,7 +180,7 @@
               <div class="bank-item pb-3">
                 <img src="{{ url('frontend/images/ic_bank.png') }}" alt="" class="bank-image">
                 <div class="description">
-                  <h3>PT Nomads ID</h3>
+                  <h3>PT Mostrip ID</h3>
                   <p>
                     0899 8501 7888
                     <br>

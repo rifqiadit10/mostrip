@@ -46,7 +46,7 @@
 
             @endif
             <h2>
-              Tentang Wisata
+              About Travel
             </h2>
             <p>
               {!! $item->about !!}

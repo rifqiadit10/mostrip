@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>NOMADS Admin</title>
+  <title>MOSTRIP Admin</title>
 
   @include('includes.admin.style')
 
@@ -71,7 +71,7 @@
   </div>
 
   @include('includes.admin.script')
- 
+
 </body>
 
 </html>

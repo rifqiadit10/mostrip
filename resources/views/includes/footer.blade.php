@@ -34,7 +34,7 @@
                 <li><a href="#">Jakarta Selatan</a></li>
                 <li><a href="#">Indonesia</a></li>
                 <li><a href="#">0857-6558-6113</a></li>
-                <li><a href="#">support@nomads.id</a></li>
+                <li><a href="#">support@mostrip.id</a></li>
               </ul>
             </div>
           </div>
@@ -47,7 +47,7 @@
         class="row border-top justify-content-center align-items-center pt-4"
       >
         <col-auto class="text-gray-500 font-weight-light">
-          2019 Copyright Nomads • All rights reserved • Made in Jakarta
+          2019 Copyright Mostrip • All rights reserved • Made in Jakarta
         </col-auto>
       </div>
     </div>

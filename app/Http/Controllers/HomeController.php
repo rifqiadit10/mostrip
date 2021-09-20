@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\StatusCount;
 use App\TravelPackage;
 use Illuminate\Http\Request;
 
@@ -15,9 +16,12 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $data = StatusCount::all();
         $items = TravelPackage::with(['galleries'])->get();
-        return view('pages.home',[
+        return view('pages.home', [
+            'data' => $data,
             'items' => $items
-        ]);
+        ]);    
+
     }
 }

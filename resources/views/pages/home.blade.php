@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-NOMADS
+MOSTRIP
 @endsection
 
 @section('content')
@@ -9,14 +9,14 @@ NOMADS
 
 <header class="text-center">
   <h1>
-    Explore The Beautiful World
+    Explore The History of Muslim Civilization
     <br />
     As Easy One Click
   </h1>
   <p class="mt-3">
     You will see beautiful
     <br />
-    moment you never see before
+    moment and wisdom
   </p>
   <a href="#popular" class="btn btn-get-started px-4 mt-4">
     Get Started
@@ -27,20 +27,22 @@ NOMADS
   <div class="container" data-aos="fade-up" data-aos-duration="1000">
     <section class="section-stats row justify-content-center" id="stats">
       <div class="col-3 col-md-2 stats-detail">
-        <h2>20K</h2>
+        @foreach($data as $data)
+        <h2>{{ $data->members }}K</h2>
         <p>Members</p>
       </div>
       <div class="col-3 col-md-2 stats-detail">
-        <h2>12</h2>
+        <h2>{{ $data->countries }}</h2>
         <p>Countries</p>
       </div>
       <div class="col-3 col-md-2 stats-detail">
-        <h2>3K</h2>
+        <h2>{{ $data->hotels }}K</h2>
         <p>Hotels</p>
       </div>
       <div class="col-3 col-md-2 stats-detail">
-        <h2>72</h2>
+        <h2>{{ $data->partners }}</h2>
         <p>Partners</p>
+        @endforeach
       </div>
     </section>
   </div>
@@ -49,7 +51,7 @@ NOMADS
     <div class="container">
       <div class="row">
         <div class="col text-center section-popular-heading" id="popularHeading">
-          <h2>Wisata popular</h2>
+          <h2>Popular Travel</h2>
           <p>
             Something that you never try
             <br />
@@ -128,7 +130,7 @@ NOMADS
             </div>
             <hr />
             <p class="trip-to mt-2">
-              Trip to Ubud
+              Trip to Jakarta
             </p>
           </div>
         </div>
@@ -144,7 +146,7 @@ NOMADS
             </div>
             <hr />
             <p class="trip-to mt-2">
-              Trip to Nusa Penida
+              Trip to Turkey
             </p>
           </div>
         </div>
@@ -160,7 +162,7 @@ NOMADS
             </div>
             <hr />
             <p class="trip-to mt-2">
-              Trip to Karimun Jawa
+              Trip to Palestine
             </p>
           </div>
         </div>

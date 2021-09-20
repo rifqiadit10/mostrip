@@ -3,7 +3,7 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('dashboard') }}">
-      <div class="sidebar-brand-text mx-3">NOMADS Admin</div>
+      <div class="sidebar-brand-text mx-3">MOSTRIP Admin</div>
     </a>
 
     <!-- Divider -->
@@ -32,6 +32,12 @@
         <a class="nav-link" href="{{ route('transaction.index') }}">
           <i class="fas fa-fw fa-dollar-sign"></i>
           <span>Transaksi</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('status-count.index') }}">
+          <i class="fas fa-fw fa-desktop"></i>
+          <span>Status</span></a>
       </li>
 
     <hr class="sidebar-divider">

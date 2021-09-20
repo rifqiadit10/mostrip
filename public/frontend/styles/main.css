@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: "Assistant", sans-serif;
-  color: #071c4d;
+  color: #000000;
 }
 
 .navbar-brand img {
@@ -26,19 +26,19 @@ body {
 }
 
 .btn-login {
-  background-color: #071c4d;
+  background-color: #000000;
   color: #ffffff;
 }
 
 .btn-login:hover {
-  background-color: #1e3771;
+  background-color: #201e1e;
   color: #ffffff;
 }
 
 header {
   padding: 180px 0 165px;
   margin-top: -70px;
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header2.jpg");
   background-size: cover;
 }
 
@@ -89,7 +89,9 @@ header .btn-get-started:hover {
 
 .section-popular {
   min-height: 540px;
-  background-color: #051334;
+  background: #ff9e53;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff9e53), to(black));
+  background: linear-gradient(180deg, #ff9e53 0%, black 100%);
   margin-top: -50px;
   margin-bottom: -230px;
 }

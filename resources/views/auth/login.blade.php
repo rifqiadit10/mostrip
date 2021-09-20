@@ -15,7 +15,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="text-center">
-                            <img src="{{ url('frontend/images/logo_nomads.png') }}" alt="" class="w-50 mb-4" />
+                            <img src="{{ url('frontend/images/logo_mostrip.png') }}" alt="" class="w-50 mb-4" />
                         </div>
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
